@@ -18,6 +18,7 @@
     },
     "dependencies": {
         "daisyui": "^2.52.0",
+        "firebase": "^9.22.1",
         "flowbite": "^1.6.5",
         "laravel-vite-plugin": "^0.7.8"
     }

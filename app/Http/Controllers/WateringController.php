@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PlantsController extends Controller
+class WateringController extends Controller
 {
     public function __construct()
     {
@@ -13,6 +13,6 @@ class PlantsController extends Controller
 
     public function index()
     {
-        return view('pages.plants.index');
+        return view('pages.watering.index');
     }
 }

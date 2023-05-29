@@ -1,5 +1,6 @@
 body{
     font-family: Helvetica, sans-serif !important;
+    background-color: #f5f5f5;
 }
 .main-color{
     color: #68D29D;
@@ -17,4 +18,49 @@ body{
 .addBtn{
    font-size: 20px;
     font-weight: 600;
+}
+.plant{
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 330px;
+
+}
+.plantImage{
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+}
+.plantImage img{
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+}
+.plantTitle{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.plantInfo{
+    margin-top: 12px;
+    text-align: center;
+}
+.plantInfo p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.plantInfo p span{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 8px;
+}
+.plantInfoSpan{
+    color: #9a9a9a;
+
+}
+@media (max-width: 480px) {
+    .plant{
+        margin: auto;
+    }
 }
