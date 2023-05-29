@@ -51,8 +51,16 @@
 
 
     <script>
-
-
+        var config = {
+            apiKey: '{{ env('apiKey') }}',
+            authDomain: '{{ env('authDomain') }}',
+            databaseURL: '{{ env('databaseURL') }}',
+            projectId: '{{ env('projectId') }}',
+            storageBucket: '{{ env('storageBucket') }}',
+            messagingSenderId: '{{ env('messagingSenderId') }}',
+            appId: '{{ env('appId') }}'
+        };
+        console.log(config)
         firebase.initializeApp(config);
 
         const database = firebase.database();
