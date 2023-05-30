@@ -1,0 +1,60 @@
+{
+    "plants": [
+        {
+            "name": "Money Tree Plant",
+            "description": "Said to bring good luck and fortune, the Money Tree is the perfect plant to add to any room of your home to create good Feng Shui. It is known for its resilience, ease of growth, and fun braided trunk.\n\nEach plant is unique; size and shape fluctuate by season so all measurements are shown as a range\nSmall plant measures between 12–16\" tall from the soil line to the top of the foliage\nArrives in a nursery grow pot nestled in your planter choice",
+            "humidity": 35,
+            "temperature": 24,
+            "soil": 60,
+            "water": 250,
+            "light": 70,
+            "frequency_id": 6,
+            "images": "https://cdn.shopify.com/s/files/1/0150/6262/products/the_sill-variant-white_gloss-money_tree.jpg?v=1680542101"
+        },
+        {
+            "name": "Olive Tree",
+            "description": "With their small, silvery, gray-green leaves, olive trees (this specific variety is the Common Olive Tree) make beautiful houseplants. These Mediterranean plants need a lot of bright, direct sunlight. South and west facing windows are ideal. Pet friendly. (Pro-tip: Olive branches make beautiful additions to bouquets, something to keep in mind as yours grows for years to come.)  ",
+            "humidity": 32,
+            "temperature": 25,
+            "soil": 64,
+            "water": 300,
+            "light": 68,
+            "frequency_id": 4,
+            "images": "https://cdn.shopify.com/s/files/1/0150/6262/products/The-Sill_Olive-Tree_Medium_Hyde_Cream_Variant.jpg?v=1684330746"
+        },
+        {
+            "name": "Snake Plant Laurentii",
+            "description": "The Snake Plant Laurentii, or Sansevieria trifasciata 'Laurentii', is a succulent plant characterized by its upright sword-like leaves with vibrant yellow edges. It is popular for its incredibly easy-going nature (it can tolerate low light and drought) and its air-purifying capabilities. The easiest way to kill this plant is to overcare for it.",
+            "humidity": 36,
+            "temperature":23,
+            "soil": 58,
+            "water": 280,
+            "light": 60,
+            "frequency_id": 6,
+            "images": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_snake-plant-laurentii_variant_small_grant_black.jpg?v=1673291935"
+        },
+        {
+            "name": "Stromanthe Triostar",
+            "description": "The elegant, elongated leaves of the Stromanthe Triostar are green, pink, and cream on top and magenta underneath. Help its variegation stay vibrant by placing it in a spot that receives bright indirect light. The Stromanthe is part of the same family as prayer plants (Marantaceae) and will similarly appreciate high humidity from a pebble tray or humidifier.",
+            "humidity": 35,
+            "temperature": 24,
+            "soil": 55,
+            "water": 200,
+            "light": 40,
+            "frequency_id":5,
+            "images": "https://cdn.shopify.com/s/files/1/0150/6262/products/the_sill-variant-white_gloss-calathea_triostar.jpg?v=1680549520"
+        },
+        {
+            "name": "Monstera Deliciosa",
+            "description": "Nicknamed the swiss cheese plant, the Monstera deliciosa is famous for its quirky natural leaf holes. These holes are theorized to maximize sun fleck capture on the forest floor. Depending on the season and maturity of the plant, your Monstera could arrive with no holes just yet, and be sized to grow alongside you.",
+            "humidity": 35,
+            "temperature": 25,
+            "soil": 64,
+            "water": 330,
+            "light": 45,
+            "frequency_id": 6,
+            "images": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_monstera_variant_medium_hyde_cream_50145be1-5183-4692-80ed-a927d5625fc8.jpg?v=1672212218"
+        }
+
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "frequencies": [
+        {
+            "name": "Every day"
+        },
+        {
+            "name": "In one day"
+        },
+        {
+            "name": "Every two days"
+        },
+        {
+            "name": "Every three days"
+        },
+        {
+            "name": "Every four days"
+        },
+        {
+            "name": "1 time per week"
+        },
+        {
+            "name": "2 times per week"
+        }
+    ]
+}

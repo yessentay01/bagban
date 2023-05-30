@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Plant;
 use Illuminate\Http\Request;
 
 class PlantsController extends Controller
@@ -13,6 +14,7 @@ class PlantsController extends Controller
 
     public function index()
     {
-        return view('pages.plants.index');
+        $plants = Plant::all();
+        return view('pages.plants.index', compact('plants'));
     }
 }
