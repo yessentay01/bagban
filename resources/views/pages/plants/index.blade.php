@@ -6,7 +6,7 @@
             <h1 class="title">Plants</h1>
         </div>
     </div>
-    <div class="plants flex justify-between flex-wrap gap-8">
+    <div class="plants flex flex-wrap gap-8">
         @foreach($plants as $plant)
             <div class="plant ">
                 <div class="plantImage">

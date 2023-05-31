@@ -59,6 +59,15 @@ body{
     color: #9a9a9a;
 
 }
+.hidden {
+    opacity: 0;
+    -webkit-transition: height 0.5s ease;
+    -moz-transition: height 0.5s ease;
+    -ms-transition: height 0.5s ease;
+    -o-transition: height 0.5s ease;
+    transition: height 0.5s ease;
+    transition-delay: 0.2s;
+}
 @media (max-width: 480px) {
     .plant{
         margin: auto;
