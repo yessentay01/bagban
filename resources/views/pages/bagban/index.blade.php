@@ -78,23 +78,23 @@
             messagingSenderId: '{{ env('messagingSenderId') }}',
             appId: '{{ env('appId') }}'
         };
-        console.log(config)
         firebase.initializeApp(config);
 
         const database = firebase.database();
 
-        firebase.database().ref().on('value', (snap) => {
-            let data = snap.val();
-            console.log(data);
-            document.getElementById("Humidity").innerHTML = data.Humidity + "%"
-            document.getElementById("temperature").innerHTML = data.Temperature + "°"
-            document.getElementById("Soil").innerHTML = data.Soil + "%"
+        function getData() {
+            firebase.database().ref().on('value', (snap) => {
+                let data = snap.val();
+                document.getElementById("Humidity").innerHTML = data.Humidity + "%"
+                document.getElementById("temperature").innerHTML = data.Temperature + "°"
+                document.getElementById("Soil").innerHTML = data.Soil + "%"
 
-            document.getElementById("Fan").checked = data.Fan
-            document.getElementById("Watering").checked = data.Watering
-            document.getElementById("Light").checked = data.Light
+                document.getElementById("Fan").checked = data.Fan
+                document.getElementById("Watering").checked = data.Watering
+                document.getElementById("Light").checked = data.Light
 
-        });
+            });
+        }
         function switchs(checkboxElem){
             if(checkboxElem.checked) {
                 console.log(checkboxElem.id);
@@ -104,6 +104,8 @@
                 firebase.database().ref(checkboxElem.id).set(false);
             }
         }
+        setInterval(getData, 10);
+
 
     </script>
 @endsection
